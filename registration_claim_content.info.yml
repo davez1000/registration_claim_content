@@ -1,0 +1,5 @@
+name: Registration claim content
+type: module
+description: Claim created content on registration or log in
+core: 8.x
+package: Custom
