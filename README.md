@@ -20,7 +20,7 @@ Process
     At this point when the user is assigned the content this module provides a hook which passes the node object with the updated user id.
     You may use this hook to handle any custom configurations you may require.
 
-
+```
 Example hook usage:
 /**
  * Implements hook_registration_claim_content_node_update().
@@ -42,6 +42,8 @@ function MYMODULE_registration_claim_content_node_update($node) {
   }
 }
 
+
 @TODO:
   The future of this module is to create proper dependency injected classes to bring code out of the .module file.
   Give a Security over hall to use sessions so that the cookie can not be altered as easy.
+```
